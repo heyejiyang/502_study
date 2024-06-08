@@ -1,10 +1,10 @@
-package exam.classpart;
+package exam.hiding;
 
 public class Student {
-    int studentID; //학번
-    String studentName; //이름
-    int grade; //학년
-    String address;//주소
+    int studentID;
+    private String studentName;
+    int grade;
+    String address;
 
     public String getStudentName(){
         return studentName;
@@ -12,5 +12,4 @@ public class Student {
     public void setStudentName(String studentName){
         this.studentName = studentName;
     }
-
 }
