@@ -13,7 +13,7 @@ public class CarFactory {
         return instance;
     }
 
-    public Car createCar(){
+    public Car createCar(){ //이부분 헷갈렷음
         Car c1 = new Car();
         return c1;
     }
